@@ -11,11 +11,9 @@ import tempfile
 import os
 
 #Langchain Tracking
-from dotenv import load_dotenv
-load_dotenv()
-os.environ['LANGCHAIN_API_KEY'] = os.getenv("LANGCHAIN_API_KEY")
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_PROJECT"] = "Summarization Bot"
+os.environ["LANGCHAIN_API_KEY"] = st.secrets["LANGCHAIN_API_KEY"]
+os.environ["LANGCHAIN_TRACING_V2"] = st.secrets["LANGCHAIN_TRACING_V2"]
+os.environ["LANGCHAIN_PROJECT"] = st.secrets["LANGCHAIN_PROJECT"]
 
 # Streamlit app
 st.set_page_config(page_title="LangChain: Summarize Youtube URLs, CSV, or PDFs", page_icon="🧵")
