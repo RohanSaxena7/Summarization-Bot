@@ -2,7 +2,7 @@
 
 An intuitive, multi-source summarization app built with **LangChain**, **Groq's Gemma2-9b LLM**, and **Streamlit**. Summarize content from smaller YouTube videos, webpages, PDFs, or CSV files — by providing links and uploading files. The assistant extracts, processes, and summarizes the content conversationally.
 
-**App Link**: _[Your Streamlit App Link Here]_
+**App Link**: _[Summarization Bot](https://summarization-bot-6cnmeuk6qqdrkykpvrjr67.streamlit.app)_
 
 ## 🚀 Features
 
