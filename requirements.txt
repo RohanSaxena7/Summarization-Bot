@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-community
+langchain_groq
+pytubefix
+pypdf
+unstructured
+validators
+python-dotenv
+fastapi
